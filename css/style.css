@@ -50,6 +50,11 @@ img {
 
 /* UTILITIES */
 
+.large-heading {
+    font-size: 3rem;
+
+}
+
 .container {
     max-width: var(--max-width);
     margin: 0 auto;
@@ -146,6 +151,17 @@ img {
 .list li a:hover {
     
     color: var(--primary-color);
+}
+
+.page-container {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.page-container > *:first-child {
+    grid-row: 1 / span 3;
 }
 
 /* NAVBAR */
