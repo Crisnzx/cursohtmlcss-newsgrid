@@ -87,7 +87,7 @@ img {
 .meta {
     display: flex;
     align-items: center;
-    padding: 0.5rem;
+    padding: 1rem; 
     justify-content: space-between;
 }
 
@@ -156,6 +156,10 @@ img {
     padding: 0.5rem 0;
     border-bottom: 1px solid #555;
     width: 90%;
+}
+
+.list.list-light li {
+    border-bottom: 1px solid rgb(182, 182, 182);
 }
 
 .list li a:hover {
